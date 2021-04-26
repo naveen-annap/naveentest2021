@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+flask = "*"
+oauth2client = "*"
+oauthlib = "*"
+gspread = "*"
+gspread-dataframe = "*"
+google-api-core = "*"
+google-api-python-client = "*"
+google-auth = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+datetime-distance = "*"
+dateutils = "*"
+pandas = "*"
+pandas-datareader = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.0"
